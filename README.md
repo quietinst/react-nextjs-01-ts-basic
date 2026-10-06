@@ -13,13 +13,13 @@ npm run build   # type-check + production build
 
 ## Tasks
 
-| File | Topic |
-|---|---|
-| `src/task-1.ts` | Typing scalar values (string, number, boolean) |
-| `src/task-2.ts` | Interfaces (`readonly`, optional properties) |
+| File            | Topic                                                |
+| --------------- | ---------------------------------------------------- |
+| `src/task-1.ts` | Typing scalar values (string, number, boolean)       |
+| `src/task-2.ts` | Interfaces (`readonly`, optional properties)         |
 | `src/task-3.ts` | Typing arrays (`T[]`, interfaces for array elements) |
-| `src/task-4.ts` | Typing function parameters and return values |
-| `src/task-5.ts` | Union types |
-| `src/task-6.ts` | Generics |
-| `src/task-7.ts` | Typing a `Promise<T>` |
-| `src/task-8.ts` | Typing an Axios HTTP request |
+| `src/task-4.ts` | Typing function parameters and return values         |
+| `src/task-5.ts` | Union types                                          |
+| `src/task-6.ts` | Generics                                             |
+| `src/task-7.ts` | Typing a `Promise<T>`                                |
+| `src/task-8.ts` | Typing an Axios HTTP request                         |

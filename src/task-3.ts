@@ -2,11 +2,16 @@
 // using the [] syntax. For `products`, create a separate Product
 // interface for its elements and type the array with it.
 
-const usernames = ['alice', 'bob', 'charlie'];
+const usernames: string[] = ['alice', 'bob', 'charlie'];
 
-const ratings = [4.5, 3.8, 5];
+const ratings: number[] = [4.5, 3.8, 5];
 
-const products = [
+interface Product {
+  id: number;
+  title: string;
+}
+
+const products: Product[] = [
   { id: 1, title: 'Phone' },
   { id: 2, title: 'Laptop' },
 ];
