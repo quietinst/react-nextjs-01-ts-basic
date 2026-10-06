@@ -1,7 +1,3 @@
-// Add explicit types to the parameters (email is optional) and to the
-// function's return value (it returns nothing). Leave the
-// implementation unchanged.
-
 function printUserInfo(name: string, age: number, email?: string): void {
   console.log('Name:', name);
   console.log('Age:', age);

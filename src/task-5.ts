@@ -1,7 +1,3 @@
-// Type `status` as a union of exactly "loading" | "success" | "error",
-// and type the function's return value (it returns nothing). Leave
-// the implementation unchanged.
-
 type Status = 'loading' | 'success' | 'error';
 
 function logStatus(status: Status): void {

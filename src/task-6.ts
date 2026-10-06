@@ -1,7 +1,3 @@
-// Make this function generic with a type parameter T so it works with
-// arrays of any type, and pass the type explicitly at each call site
-// (e.g. getFirstElement<number>(...)).
-
 function getFirstElement<T>(arr: T[]): T {
   return arr[0];
 }

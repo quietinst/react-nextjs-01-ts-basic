@@ -1,5 +1,3 @@
-// Add explicit types to each variable below.
-
 const name: string = 'Alice';
 const age: number = 30;
 const isOnline: boolean = true;

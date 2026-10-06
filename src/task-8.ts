@@ -1,6 +1,3 @@
-// Create a Post interface (id: number, title: string, body: string),
-// then type axios.get so it knows the API returns an array of posts.
-
 import axios from 'axios';
 
 interface Post {
